@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 FrameLayout.LayoutParams lp = new FrameLayout.LayoutParams(-2, -2);
                 Random aleatorio = new Random();
                 int x = aleatorio.nextInt(5) + 1;
-                Log.i("num",String.valueOf(x));
+/*                Log.i("num",String.valueOf(x));*/
                 switch (x) {
                     case 1:
                         lp.gravity = Gravity.TOP;
